@@ -25,6 +25,7 @@ function App() {
     <div className="App">
       <h1> {data.title} </h1>
       <img src= {data.url}></img>
+      <p>{data.explanation}</p>
     </div>
     
   );
